@@ -2,7 +2,7 @@
 #高维临床数据在线分析平台 - hdnom
 
 ##生存分析工具箱 - hdnom
-今天隆重向大家介绍一个在线的“**科学算命**”利器 [hdnom](http://hdnom.org/)  (**H**igh-**D**imensional **N**omogram)：<http://hdnom.org/>。
+今天隆重向大家介绍一个免费的在线“**科学算命**”利器 [hdnom](http://hdnom.org/)  (**H**igh-**D**imensional **N**omogram)：<http://hdnom.org/>。
 
 hdnom 是妙竹（杜克大学人群健康寿命基因组研究所博后）与全栈开发者肖楠（芝加哥大学人类遗传系博士生）搭建的简化高维临床数据分析，构建生存模型的开源平台。
 
@@ -17,7 +17,7 @@ hdnom 包括 R 包, web app, 本地 app 三部分。
 
 
 这个平台的构建源自妙竹对临床研究的现状观察，身边很多医生朋友们存在处理高维临床数据分析的困扰。面对日益增加的多变量临床检测数据、基因数据，传统 Cox 生存模型无法很好解决变量之间**共线性**问题 [6]。分析高维数据对编程计算、对数理统计的要求门槛较高，而现有工具图形化界面化也不够友好。
-因此，妙竹和肖楠利用一年双休日节假日中几乎所有的闲暇时间搭建了这个**开源免费**的生存率预测平台。愿景正如平台首页所述 hdnom web app <http://hdnom.io/> :
+因此，妙竹和肖楠利用一年双休日节假日中几乎所有的闲暇时间搭建了这个**开源免费**的生存率预测平台。愿景正如平台首页所述 [hdnom web app]http://hdnom.io/) :
 >Hiding within those mounds of data is knowledge that could ***change the life of a patient***, or ***change the world***.
 
 他们希望能帮助更多的临床工作人员充分利用越来越丰富的高维临床数据，探索复杂疾病的致病原因、发病进程，为患者提供个体化的诊断和治疗。
@@ -44,4 +44,4 @@ Rstudio 公司将 hdnom web app 选为官网 [showcase](https://www.rstudio.com/
 
 [6] Trevor Hastie, Robert Tibshirani, Jerome Friedman. 2009. The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Second Edition. February 2009. Springer Science & Business Media.
 
-李妙竹写于杜克大学，2016年7月6日。
+李妙竹写于杜克大学，2016 年 7 月 11 日。
